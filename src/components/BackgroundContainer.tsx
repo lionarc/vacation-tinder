@@ -17,7 +17,6 @@ export default function BackgroundContainer({
     >
       <Box p="md" style={{ position: "relative", zIndex: 2 }}>
         <Box
-          bg="pink"
           p="md"
           style={{
             borderRadius: "0.25rem",
