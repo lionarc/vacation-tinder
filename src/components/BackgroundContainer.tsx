@@ -13,12 +13,11 @@ export default function BackgroundContainer({
       shadow="md"
       p={0}
       withBorder
-      bg="blue.6" // Using the main theme color as background
       style={{ overflow: "hidden", position: "relative" }}
     >
       <Box p="md" style={{ position: "relative", zIndex: 2 }}>
         <Box
-          bg="rgba(255, 255, 255, 0.85)"
+          bg="pink"
           p="md"
           style={{
             borderRadius: "0.25rem",
